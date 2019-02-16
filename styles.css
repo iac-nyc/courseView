@@ -18,10 +18,15 @@ body {
 }
 
 .icon {
-    width:50px; 
+    width:75px; 
     margin:auto; 
     border-radius:50%;     
     
+}
+.special {
+     border: 1px solid #FFFFFF;
+     padding: 5px;
+  
 }
 #iftekhar {
      text-align: center;
