@@ -28,6 +28,9 @@ body {
      padding: 5px;
   
 }
+nav > ul > li {
+    display: inline-block;
+   }
 #iftekhar {
      text-align: center;
      margin: 0 auto;
