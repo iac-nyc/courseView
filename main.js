@@ -28,7 +28,6 @@ $(function() {
 });
 
 
-
 function getBadges(json) {
 	var badges = [];
 	$.each(json, function(i, b) {
@@ -59,6 +58,8 @@ Badge.prototype.completedDate = function(date) {
 	var d = new Date(date);
 	return (d.getMonth()+1)+ "/" +d.getDate()  + "/" + d.getFullYear();
 }
+
+
 
 /////////////////////////////////////
 //BadgeList Object
@@ -166,6 +167,7 @@ var UI = {
 
 	displayCourses: function(courses) {
 		var html = this.coursesHtml(courses);
+       
 		$('#reportCard').append(html);
 		this.addCourseClickHandler();
 	},
