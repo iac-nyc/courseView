@@ -137,11 +137,10 @@ var UI = {
 		var badge = badges.filter(function( obj ) { 
 			return obj.id == id; 
 		})[0],
-				details = '<div class="badge-details">';
-		
+        details = '<div class="badge-details">';		
 		details += '<span class="fa fa-times fa-2x pull-right cross"></span>';
 		details += '<a href="' + badge.url + '" target="_blank"><img src="' + badge.iconUrl + '"></a>';
-	  details += '<a href="' + badge.url + '" target="_blank"><p>' + badge.name + '</p></a>';
+	    details += '<a href="' + badge.url + '" target="_blank"><p>' + badge.name + '</p></a>';
 		details += '<p>Completed on: ' + badge.earnedDate + '</p>';
 		details += "</div>";
 
@@ -183,6 +182,8 @@ var UI = {
 			var courseName = course.replace(/[^a-zA-Z]/g, '');
 
 			if(count === 1) {
+                coursesHTML +="<p class='center'>Total Courses: "+(coursesCount-1)+" and counting...</p>";
+                coursesHTML +="<hr style='border-color:solid 500px #7FFFD4;'><br>";
 				coursesHTML += "<div class='col-sm-4'>";
 			}
 			coursesHTML += "<div class='panel panel-default'>";
