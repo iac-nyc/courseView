@@ -182,7 +182,7 @@ var UI = {
 			var courseName = course.replace(/[^a-zA-Z]/g, '');
 
 			if(count === 1) {
-                coursesHTML +="<p class='center'>Total Courses: "+(coursesCount-1)+" and counting...</p>";
+                coursesHTML +="<p class='center'>Total Courses: "+(coursesCount-1)+" </p>";
                 coursesHTML +="<hr style='border-color:solid 500px #7FFFD4;'><br>";
 				coursesHTML += "<div class='col-sm-4'>";
 			}
