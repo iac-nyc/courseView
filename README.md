@@ -1,5 +1,5 @@
 ```
-I no longer have subscription at Treehouse. 
+I no longer have subscription at Treehouse. This site will not retrieve any data from their server.
 ```
 
 ###  https://iac-nyc.github.io/courseView/
