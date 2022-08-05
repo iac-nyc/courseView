@@ -2,7 +2,7 @@
 
 function getData(callback) {
 	var name = "iftekharchowdhury",
-			url = "https://teamtreehouse.com/" + name + ".json";
+			url = "https://teamtreehouse.com/profiles/" + name + ".json";
 
 	$.getJSON(url).done(callback)
 	.fail(function(error) {
@@ -48,7 +48,7 @@ function Badge(badge) {
 	if(badge.courses[0]) {
 		this.course = badge.courses[0].title;
 	} else {
-		this.course = "The Beginning at Treehouse";
+		this.course = "The Journey Begins!";
 	}
 	this.url = badge.url;
 	this.earnedDate = this.completedDate(badge.earned_date);
