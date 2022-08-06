@@ -1,10 +1,6 @@
-<<<<<<< HEAD
  ```This project will show the list of my completed courses @treehouse```
-=======
-```
-I no longer have subscription at Treehouse. This site will not retrieve any data from their server.
-```
->>>>>>> fa460972388ac803b2c2dbaa69dc6c6739b1feaa
+
+
 
 ###  https://iac-nyc.github.io/courseView/
 ## Project Title: courseView
